@@ -62,26 +62,26 @@ All services run through **Docker Compose** for consistency and portability.
 ## Step-by-Step Deployment
 
 ### 1 Start Suricata in IDS Mode
-docker compose up suricata
-Suricata initialized in IDS mode:
+      docker compose up suricata
+      Suricata initialized in IDS mode:
 ### 2 Launch Full Stack (ELK + Suricata
-docker compose up -d
-docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"
+      docker compose up -d
+      docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"
 ### 3 Access Kibana
-Visit http://localhost:5601
+      Visit http://localhost:5601
 ### 4 Capture Live Traffic
-sudo tcpdump -i enp0s3 -w ~/lab-siem/pcaps/attack.pcap
+      sudo tcpdump -i enp0s3 -w ~/lab-siem/pcaps/attack.pcap
 ### 5 Generate Simulated Web Traffic
-for i in {1..30}; do curl -s http://127.0.0.1:3000 > /dev/null; done
+     for i in {1..30}; do curl -s http://127.0.0.1:3000 > /dev/null; done
 ### 6 Stop Capture and Verify PCAP
-Display captured packets:  sudo tcpdump -r ~/lab-siem/pcaps/attack.pcap -nn -tttt | head -n 20
+     Display captured packets:  sudo tcpdump -r ~/lab-siem/pcaps/attack.pcap -nn -tttt | head -n 20
 ### 7 Check Evidence Folder
-ls -lh ~/lab-siem/evidence/
+     ls -lh ~/lab-siem/evidence/
 ### 8 Verify Suricata Alerts in eve.json
-grep -n "event_type\":\"alert" ~/lab-siem/suricata-logs/eve.json | tail -n 10
+     grep -n "event_type\":\"alert" ~/lab-siem/suricata-logs/eve.json | tail -n 10
 ### 9 Explore Kibana Dashboards
-Events Overview
-Alert Overview
+     Events Overview
+     Alert Overview
 
 ## Results Summary
 Captured real network packets using tcpdump
