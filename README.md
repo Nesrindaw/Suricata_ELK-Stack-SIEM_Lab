@@ -20,14 +20,14 @@ lab-siem/
 ├── pcaps/
 ├── evidence/
 └── screenshots/
-├── 01_docker_compose_up_containers_running.png
-├── 02_all_containers_running.png
-├── 03_kibana_home_ready.png
-├── 04_tcpdump_running.png
-├── 05_attack_requests_local.png
-├── 06_pcap_saved.png
-├── 07_kibana_suricata_dashboard_alerts.png
-└── 08_kibana_suricata_alerts.png
+    ├── 01_docker_compose_up_containers_running.png
+    ├── 02_all_containers_running.png
+    ├── 03_kibana_home_ready.png
+    ├── 04_tcpdump_running.png
+    ├── 05_attack_requests_local.png
+    ├── 06_pcap_saved.png
+    ├── 07_kibana_suricata_dashboard_alerts.png
+    └── 08_kibana_suricata_alerts.png
 ```
 
 ---
