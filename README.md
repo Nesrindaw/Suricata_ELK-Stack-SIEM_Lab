@@ -9,7 +9,7 @@ This repository showcases a practical **Security Information and Event Managemen
 It demonstrates the full detection pipeline from network packet capture to real-time alert visualization.
 
 ## Directory Layout
-
+```
 lab-siem/
 │
 ├── docker-compose.yml
@@ -28,6 +28,7 @@ lab-siem/
 ├── 06_pcap_saved.png
 ├── 07_kibana_suricata_dashboard_alerts.png
 └── 08_kibana_suricata_alerts.png
+```
 
 ---
 
