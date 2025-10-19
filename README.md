@@ -102,4 +102,15 @@ Create reusable security lab environments.
 
 
 Screenshots
-<img width="1366" height="647" alt="01_docker_compose_up_containers_running" src="https://github.com/user-attachments/assets/92b69832-1750-44db-8cd1-52567b217975" /> <img width="1366" height="383" alt="02_all_containers_running" src="https://github.com/user-attachments/assets/a6572574-7660-438c-affb-6c4165dea464" /> <img width="1366" height="720" alt="03_kibana_home_ready" src="https://github.com/user-attachments/assets/d4f7428f-4b7c-451b-89ff-62da86c2c342" /> <img width="642" height="210" alt="04_tcpdump_running" src="https://github.com/user-attachments/assets/fcd3de6a-d1dd-4f82-bba0-8b68797738dd" /> <img width="576" height="153" alt="05_attack_requests_local" src="https://github.com/user-attachments/assets/6f656988-105a-4aaa-8b75-4c40005cc950" /> <img width="1361" height="422" alt="06_pcap_saved" src="https://github.com/user-attachments/assets/68892129-536e-48f0-9433-7dbb2afaea99" /> <img width="501" height="415" alt="07_kibana_suricata_dashboard_alerts" src="https://github.com/user-attachments/assets/6d04950a-8dad-4778-b316-b8bf7c40c3b2" /> <img width="1021" height="407" alt="08_kibana_suricata_alerts" src="https://github.com/user-attachments/assets/eb1eb4a0-b68c-423e-9196-5bedeb08d9b7" /> ```
+```md
+<img width="1366" height="647" alt="01_docker_compose_up_containers_running" src="https://github.com/user-attachments/assets/47e95e13-8a1b-4040-98c4-86d8ae61e0db" />
+<img width="1366" height="383" alt="02_all_containers_running" src="https://github.com/user-attachments/assets/8c9f21f7-d727-40f9-bdb7-ac2cd113044b" />
+<img width="1366" height="720" alt="03_kibana_home_ready" src="https://github.com/user-attachments/assets/6ff8e0a6-ba5f-4970-ba8e-c5b5d83c3fed" />
+<img width="642" height="210" alt="04_tcpdump_running" src="https://github.com/user-attachments/assets/94b6f416-7945-4092-8873-9735c2c91591" />
+<img width="576" height="153" alt="05_attack_requests_local" src="https://github.com/user-attachments/assets/3876a978-2e57-4712-aa42-8e0f2cbdb6df" />
+<img width="1361" height="422" alt="06_pcap_saved" src="https://github.com/user-attachments/assets/6fc694a3-a0e7-46e0-9aa9-dc2c49b59e48" />
+<img width="501" height="415" alt="07_kibana_suricata_dashboard_alerts" src="https://github.com/user-attachments/assets/e44ad1b4-7ed9-4d33-9fdb-69d840212b76" />
+<img width="1021" height="407" alt="08_kibana_suricata_alerts" src="https://github.com/user-attachments/assets/b8c90860-ee90-483e-9e0b-8abd35ffe59b" />
+<img width="877" height="357" alt="10_evidence_folder" src="https://github.com/user-attachments/assets/9399c075-8241-4b17-be99-d34b7529a943" />
+
+
