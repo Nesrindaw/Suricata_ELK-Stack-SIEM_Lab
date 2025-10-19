@@ -1,0 +1,69 @@
+version: '3.9'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.13
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - "ES_JAVA_OPTS=-Xms1g -Xmx1g -Djava.io.tmpdir=/usr/share/elasticsearch/tmp"
+      - xpack.security.enabled=false
+      - xpack.security.http.ssl.enabled=false
+      - ES_TMPDIR=/var/lib/docker/elasticsearch_tmp
+      - network.host=0.0.0.0
+      - http.cors.enabled=true
+      - http.cors.allow-origin=*
+      - LIBFFI_TMPDIR=/usr/share/elasticsearch/tmp
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+      - ./es-tmp:/usr/share/elasticsearch/tmp
+    ports:
+      - "9200:9200"
+    networks:
+      - elknet
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.17.13
+    container_name: kibana
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+      - SERVER_NAME=kibana
+    ports:
+      - "5601:5601"
+    depends_on:
+      - elasticsearch
+    networks:
+      - elknet
+
+  juice-shop:
+    image: bkimminich/juice-shop
+    container_name: juice-shop
+    ports:
+      - "3000:3000"
+    networks:
+      - elknet
+
+  suricata:
+    image: jasonish/suricata:latest
+    container_name: suricata
+    command: -i enp0s3
+    network_mode: host
+    cap_add:
+       - NET_ADMIN
+       - SYS_NICE
+    volumes:
+      - ./suricata-logs:/var/log/suricata
+      - ./suricata.yaml:/etc/suricata/suricata.yaml
+      - ./rules:/etc/suricata/rules
+
+volumes:
+  esdata:
+  estmp:
+
+networks:
+  elknet:
+

@@ -1,0 +1,5 @@
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.9.0
+USER root
+RUN mkdir -p /var/lib/docker/elasticsearch_tmp && chmod -R 777 /var/lib/docker/elasticsearch_tmp
+ENV ES_TMPDIR=/var/lib/docker/elasticsearch_tmp
+USER elasticsearch

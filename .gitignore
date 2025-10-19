@@ -1,0 +1,10 @@
+# Ignore large or temporary folders
+esdata/
+es-tmp/
+suricata-logs/
+
+# Ignore temporary files
+*.log
+*.tmp
+*.save
+*.swp
