@@ -103,37 +103,39 @@ Create reusable security lab environments.
 
 ## Screenshots
 
+### 01 docker compose up containers running
+
 ![01_docker_compose_up_containers_running](https://github.com/user-attachments/assets/47e95e13-8a1b-4040-98c4-86d8ae61e0db)
 
-                       ### 01 docker compose up containers running
+### 02 all containers running                   
                        
 ![02_all_containers_running](https://github.com/user-attachments/assets/8c9f21f7-d727-40f9-bdb7-ac2cd113044b)
 
-                       ### 02 all containers running
+ ### 03 kibana home ready                      
                        
 ![03_kibana_home_ready](https://github.com/user-attachments/assets/6ff8e0a6-ba5f-4970-ba8e-c5b5d83c3fed)
 
-                       ### 03 kibana home ready
+### 04 tcpdump running                       
             
 ![04_tcpdump_running](https://github.com/user-attachments/assets/94b6f416-7945-4092-8873-9735c2c91591)
 
-                        ### 04 tcpdump running
+ ### 05 attack requests local                       
                         
 ![05_attack_requests_local](https://github.com/user-attachments/assets/3876a978-2e57-4712-aa42-8e0f2cbdb6df)
 
-                        ### 05 attack requests local
+  ### 06 pcap saved                       
 
 ![06_pcap_saved](https://github.com/user-attachments/assets/6fc694a3-a0e7-46e0-9aa9-dc2c49b59e48)
 
-                       ### 06 pcap saved
+### 07 kibana suricata dashboard alerts                      
                        
 ![07_kibana_suricata_dashboard_alerts](https://github.com/user-attachments/assets/e44ad1b4-7ed9-4d33-9fdb-69d840212b76)
 
-                     ### 07 kibana suricata dashboard alerts
+ ### 08 kibana suricata alerts                   
                      
 ![08_kibana_suricata_alerts](https://github.com/user-attachments/assets/b8c90860-ee90-483e-9e0b-8abd35ffe59b)
 
-                     ### 08 kibana suricata alerts
+                     
 
 
 
