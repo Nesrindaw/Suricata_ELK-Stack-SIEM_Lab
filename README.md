@@ -61,7 +61,6 @@ All services run through **Docker Compose** for consistency and portability.
 ## Step-by-Step Deployment
 
 ### 1 Start Suricata in IDS Mode
-```bash
 docker compose up suricata
 Suricata initialized in IDS mode:
 ### 2 Launch Full Stack (ELK + Suricata
