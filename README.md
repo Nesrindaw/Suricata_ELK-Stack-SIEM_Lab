@@ -1,5 +1,5 @@
 
-This project demonstrates a fully working mini-SIEM lab capable of analyzing network attacks in real time —
+This project demonstrates a fully working mini-SIEM lab capable of analyzing network attacks in real time
 a strong foundation for SOC, Threat Detection, and Blue Team practical experience.
 
 
@@ -12,14 +12,14 @@ It demonstrates the full detection pipeline from network packet capture to real-
 
 lab-siem/
 
- docker-compose.yml
- filebeat.yml
- suricata.yaml
- rules/
- suricata-logs/
- pcaps/
- evidence/
- screenshots/
+docker-compose.yml
+filebeat.yml
+suricata.yaml
+rules/
+suricata-logs/
+pcaps/
+evidence/
+screenshots/
       01_docker_compose_up_containers_running.png
       02_all_containers_running.png
       03__kibana_home_ready.png
@@ -32,7 +32,7 @@ lab-siem/
 ---
 
 ##  Architecture Overview
-[ Suricata IDS ] → [ Filebeat ] → [ Elasticsearch ] → [ Kibana Dashboards ]
+[ Suricata IDS ]  [ Filebeat ]  [ Elasticsearch ]  [ Kibana Dashboards ]
 
 All services run through **Docker Compose** for consistency and portability.
 
