@@ -101,20 +101,5 @@ Create reusable security lab environments.
 
 
 
-
-<img width="1366" height="647" alt="01_docker_compose_up_containers_running" src="https://github.com/user-attachments/assets/92b69832-1750-44db-8cd1-52567b217975" />
-
-<img width="1366" height="383" alt="02_all_containers_running" src="https://github.com/user-attachments/assets/a6572574-7660-438c-affb-6c4165dea464" />
-
-<img width="1366" height="720" alt="03_kibana_home_ready" src="https://github.com/user-attachments/assets/d4f7428f-4b7c-451b-89ff-62da86c2c342" />
-
-<img width="642" height="210" alt="04_tcpdump_running" src="https://github.com/user-attachments/assets/fcd3de6a-d1dd-4f82-bba0-8b68797738dd" />
-
-<img width="576" height="153" alt="05_attack_requests_local" src="https://github.com/user-attachments/assets/6f656988-105a-4aaa-8b75-4c40005cc950" />
-
-<img width="1361" height="422" alt="06_pcap_saved" src="https://github.com/user-attachments/assets/68892129-536e-48f0-9433-7dbb2afaea99" />
-
-<img width="501" height="415" alt="07_kibana_suricata_dashboard_alerts" src="https://github.com/user-attachments/assets/6d04950a-8dad-4778-b316-b8bf7c40c3b2" />
-
-<img width="1021" height="407" alt="08_kibana_suricata_alerts" src="https://github.com/user-attachments/assets/eb1eb4a0-b68c-423e-9196-5bedeb08d9b7" />
-
+Screenshots
+<img width="1366" height="647" alt="01_docker_compose_up_containers_running" src="https://github.com/user-attachments/assets/92b69832-1750-44db-8cd1-52567b217975" /> <img width="1366" height="383" alt="02_all_containers_running" src="https://github.com/user-attachments/assets/a6572574-7660-438c-affb-6c4165dea464" /> <img width="1366" height="720" alt="03_kibana_home_ready" src="https://github.com/user-attachments/assets/d4f7428f-4b7c-451b-89ff-62da86c2c342" /> <img width="642" height="210" alt="04_tcpdump_running" src="https://github.com/user-attachments/assets/fcd3de6a-d1dd-4f82-bba0-8b68797738dd" /> <img width="576" height="153" alt="05_attack_requests_local" src="https://github.com/user-attachments/assets/6f656988-105a-4aaa-8b75-4c40005cc950" /> <img width="1361" height="422" alt="06_pcap_saved" src="https://github.com/user-attachments/assets/68892129-536e-48f0-9433-7dbb2afaea99" /> <img width="501" height="415" alt="07_kibana_suricata_dashboard_alerts" src="https://github.com/user-attachments/assets/6d04950a-8dad-4778-b316-b8bf7c40c3b2" /> <img width="1021" height="407" alt="08_kibana_suricata_alerts" src="https://github.com/user-attachments/assets/eb1eb4a0-b68c-423e-9196-5bedeb08d9b7" /> ```
